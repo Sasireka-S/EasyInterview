@@ -67,7 +67,7 @@ with txt.form(key='form3'):
     st.markdown(original_title, unsafe_allow_html=True)
     id = text_field("Organization ID : ")
     password = text_field("Password : ", type = "password")
-    st.text("Start meeting for Recruitment [link](videochat2.html)")
+    st.write("Start meeting for Recruitment [link](videochat2.html)")
     submit = st.form_submit_button(label="Submit")
 if submit:
     txt.empty()
